@@ -12,15 +12,15 @@ This project centers around a detailed analysis of bank customer churn data, aim
 
 1. **Data Structuring and Cleansing**
    - **Task**: Enhance the dataset by creating new categorical columns.
-   - **Details**: Introduced `age_group`, `credit_score_group`, and `balance_group` to categorize customers effectively. Updated these columns to reflect meaningful segments based on age, credit score, and account balance.
+   - **Details**: Introduced `age_group`, `credit_score_group`, and `balance_group` to categorise customers effectively. Updated these columns to reflect meaningful segments based on age, credit score, and account balance.
 
 2. **Customer Segmentation**
    - **Task**: Segment customers based on geographic, gender, and age distributions.
-   - **Details**: Created views to analyze customer characteristics, including average metrics (age, credit score, balance) segmented by geography, gender, and age group.
+   - **Details**: Created views to analyse customer characteristics, including average metrics (age, credit score, balance) segmented by geography, gender, and age group.
 
 3. **Churn Rate Analysis**
    - **Task**: Investigate churn rates across different segments.
-   - **Details**: Analyzed the percentage of customers who exited the bank, focusing on demographic factors associated with higher churn rates to identify at-risk segments.
+   - **Details**: Analysed the percentage of customers who exited the bank, focusing on demographic factors associated with higher churn rates to identify at-risk segments.
 
 4. **Satisfaction Score Analysis**
    - **Task**: Evaluate the relationship between customer satisfaction and churn.
@@ -34,8 +34,8 @@ This project centers around a detailed analysis of bank customer churn data, aim
    - **Task**: Identify customers at risk of churning based on key metrics.
    - **Details**: Flagged customers with low satisfaction scores, specific balance groups, and tenure ranges to enable proactive retention strategies.
 
-7. **Reporting and Visualization**
-   - **Task**: Create comprehensive reports and visualizations to present findings.
+7. **Reporting and Visualisation**
+   - **Task**: Create comprehensive reports and visualisations to present findings.
    - **Details**: Developed SQL queries to generate insights on customer demographics, churn rates, and satisfaction scores, facilitating data-driven decision-making for stakeholders.
 
 ### Data Sources
@@ -141,4 +141,4 @@ For any questions or further information, feel free to reach out.
 4. Satisfaction Score Analysis provides insights into customer experience.
 5. Customer Lifetime Value Calculation informs financial strategies.
 6. Identification of At-Risk Customers enables proactive engagement.
-7. Reporting and Visualization effectively communicate insights to support strategic decision-making.
+7. Reporting and Visualisation effectively communicate insights to support strategic decision-making.
