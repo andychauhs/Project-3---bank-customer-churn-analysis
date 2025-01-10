@@ -39,7 +39,7 @@ This project centers around a detailed analysis of bank customer churn data, aim
    - **Details**: Developed SQL queries to generate insights on customer demographics, churn rates, and satisfaction scores, facilitating data-driven decision-making for stakeholders.
 
 ### Data Sources
-The dataset for this analysis is sourced from Kaggle: Bank Customer Churn https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn. It comprises the following columns:
+The dataset for this analysis is sourced from Kaggle: Bank Customer Churn [https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn). It comprises the following columns:
 - RowNumber
 - CustomerId
 - CreditScore
@@ -68,8 +68,57 @@ The dataset for this analysis is sourced from Kaggle: Bank Customer Churn https:
 ### Usage
 You can replicate the analysis by executing the provided SQL queries against the included datasets or datasets with similar structures.
 
-### Conclusion
-This project aims to provide in-depth insights into bank customer churn, focusing on customer behavior, satisfaction metrics, and retention strategies. The findings will assist stakeholders in making informed decisions to enhance customer loyalty and reduce attrition rates.
+# Findings
+
+## Churn Rates
+- The balance groups of **£100,000 - £149,999** and **£200,000+** exhibit the highest churn rates, with rates of **25.77%** and **55.88%**, respectively.
+- Germany has the highest overall churn rates among demographics, particularly in the **45-54** and **55-64** age groups, indicating significant customer loss.
+
+## Satisfaction Scores
+- The average satisfaction score of exited customers is approximately **2.9975**, suggesting that many customers are dissatisfied prior to exiting.
+- Customers with satisfaction scores of **3 or lower** are particularly at risk, especially when they belong to high-balance groups and are in the older age brackets.
+
+## Tenure Analysis
+- The average tenure for exited customers is around **4.93 years**, indicating that many customers leave after several years of banking with the institution.
+- A significant number of at-risk customers have tenures between **3 to 5 years**, highlighting a critical period where intervention could be effective.
+
+## Demographic Segmentation
+- At-risk customers predominantly fall within the **45-54** and **55-64** age groups, with a notable concentration in Germany.
+- Gender analysis indicates that both male and female customers in these age groups are at risk, necessitating a gender-neutral approach in retention strategies.
+
+# Insights
+
+## High Value, High Risk
+- Customers in the **£200,000+** balance group represent a significant potential loss if they churn, as they contribute substantial revenue. Their high churn rate suggests unmet expectations or dissatisfaction.
+
+## Satisfaction as a Predictor
+- The correlation between lower satisfaction scores and higher churn rates demonstrates that customer experience is a critical factor in retention. Even moderately satisfied customers (score of **3**) are susceptible to leaving.
+
+## Behavioural Patterns
+- The data reveals that customers are potentially disengaging after several years of banking, particularly those with medium tenure (3-5 years). This suggests that customer engagement strategies may falter over time.
+
+## Geographic Concentration
+- Germany stands out as a critical market needing immediate attention due to its high churn rates across multiple demographics. This indicates a potential disconnect between the bank’s offerings and customer needs in this region.
+
+# Recommendations
+
+## Enhance Customer Engagement
+- Implement personalised communication and offers tailored to at-risk demographics, particularly focusing on those with lower satisfaction scores. Regular check-ins can help identify issues before they lead to churn.
+
+## Targeted Retention Strategies
+- Develop specific retention programmes aimed at high-balance groups, especially those in the **£100,000 - £149,999** and **£200,000+** segments. Consider loyalty programmes, exclusive offers, or personalised financial advice to enhance perceived value.
+
+## Feedback Mechanism
+- Establish robust feedback channels to gather insights from at-risk customers. Regular surveys or focus groups can help identify pain points and areas for improvement in services and customer support.
+
+## Tailored Product Offerings
+- Create products that cater specifically to the needs of older middle-aged adults (45-64). This could include retirement planning services, investment opportunities, and financial wellness programmes.
+
+## Monitor and Adjust Strategies
+- Continuously track churn rates, satisfaction scores, and customer feedback to refine retention strategies. A data-driven approach allows for timely adjustments to meet evolving customer needs.
+
+## Geographic Focus
+- Prioritise relationship consolidation efforts in Germany. Conduct market research to understand local customer preferences and adjust services accordingly to enhance satisfaction and loyalty.
 
 For any questions or further information, feel free to reach out.
 
