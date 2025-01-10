@@ -71,7 +71,7 @@ You can replicate the analysis by executing the provided SQL queries against the
 # Findings
 
 ## Churn Rates
-- The balance groups of **£100,000 - £149,999** and **£200,000+** exhibit the highest churn rates, with rates of **25.77%** and **55.88%**, respectively.
+- The balance groups of **$100,000 - $149,999** and **$200,000+** exhibit the highest churn rates, with rates of **25.77%** and **55.88%**, respectively.
 - Germany has the highest overall churn rates among demographics, particularly in the **45-54** and **55-64** age groups, indicating significant customer loss.
 
 ## Satisfaction Scores
@@ -106,7 +106,7 @@ You can replicate the analysis by executing the provided SQL queries against the
 - Implement personalised communication and offers tailored to at-risk demographics, particularly focusing on those with lower satisfaction scores. Regular check-ins can help identify issues before they lead to churn.
 
 ## Targeted Retention Strategies
-- Develop specific retention programmes aimed at high-balance groups, especially those in the **£100,000 - £149,999** and **£200,000+** segments. Consider loyalty programmes, exclusive offers, or personalised financial advice to enhance perceived value.
+- Develop specific retention programmes aimed at high-balance groups, especially those in the **$100,000 - $149,999** and **$200,000+** segments. Consider loyalty programmes, exclusive offers, or personalised financial advice to enhance perceived value.
 
 ## Feedback Mechanism
 - Establish robust feedback channels to gather insights from at-risk customers. Regular surveys or focus groups can help identify pain points and areas for improvement in services and customer support.
@@ -119,6 +119,14 @@ You can replicate the analysis by executing the provided SQL queries against the
 
 ## Geographic Focus
 - Prioritise relationship consolidation efforts in Germany. Conduct market research to understand local customer preferences and adjust services accordingly to enhance satisfaction and loyalty.
+
+
+# Conclusion
+
+The analysis of bank customer churn reveals critical insights that can drive actionable strategies for improving customer retention. By focusing on high-risk demographics, particularly in the **$200,000+** balance group and the **45-64** age brackets, the bank can tailor its engagement efforts to address the unique needs and expectations of these customers. The significant churn rates in Germany highlight the necessity for targeted interventions in this region, ensuring that the bank's offerings align more closely with customer preferences.
+
+Implementing personalised communication, robust feedback mechanisms, and tailored product offerings will not only enhance customer satisfaction but also foster long-term loyalty. By continuously monitoring key metrics and adjusting strategies based on data-driven insights, the bank can effectively mitigate churn and improve overall business performance. This proactive approach will ultimately lead to a more resilient customer base and sustained profitability.
+
 
 For any questions or further information, feel free to reach out.
 
